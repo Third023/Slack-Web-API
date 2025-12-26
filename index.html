@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Slack Web API Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Slack Web API</h1>
+
+<a href="http://localhost:3000/login">
+  <button class="login-btn">Login with Slack</button>
+</a>
+
+<hr>
+
+<input id="channel" placeholder="Channel ID (CXXXXXX)">
+<textarea id="message" placeholder="Message"></textarea>
+<button onclick="sendMessage()">Send</button>
+
+<p id="status"></p>
+
+
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Slack Web API Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Slack Web API</h1>
+
+    <!-- LOGIN SECTION -->
+    <div id="loginSection">
+      <a href="http://localhost:3000/login">
+        <button class="login-btn">Login with Slack</button>
+      </a>
+    </div>
+
+    <!-- APP SECTION (HIDDEN AT FIRST) -->
+    <div id="appSection" style="display: none;">
+      <hr>
+      <input id="channel" placeholder="Channel ID (CXXXXXX)">
+      <textarea id="message" placeholder="Message"></textarea>
+      <button onclick="sendMessage()">Send</button>
+      <br>
+      <button id="logoutBtn" onclick="logout()">Logout</button>
+
+      <p id="status"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
