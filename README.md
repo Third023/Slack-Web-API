@@ -40,3 +40,6 @@ PORT=3000
 5. Start the backend server:
 
 node server.js
+
+COLLABORATORS
+1. Alfredo O. Gonzales
