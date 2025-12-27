@@ -6,7 +6,7 @@ This project is a web application that interacts with the **Slack API** to send 
 ---
 
 ## Features
-- **Login and Logout
+- Login and Logout
 - **Send Messages** to a Slack channel
 - **Authentication** using OAuth 2.0 / Bot Token
 - **Error Handling** for failed API requests
